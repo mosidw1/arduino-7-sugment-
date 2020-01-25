@@ -1,0 +1,203 @@
+int a = 13,b =12 ,c =11 ,d =10 ,e =9,f =8,g=7;
+void off()
+{
+  for(int i = 13;i>=7;i--)
+  {
+    
+      digitalWrite(i,HIGH);
+   
+  }
+}
+
+void zero ()
+{
+  for(int i = 13;i>=7;i--)
+  {
+    if(i==7)
+    {
+      digitalWrite(i,HIGH);
+    }
+    else
+    {
+      digitalWrite(i,LOW);
+    }
+    
+  }
+  
+}
+void one()
+{
+  for(int i = 13;i>=7;i--)
+  {
+    if(i==8||i==9)
+    {
+      digitalWrite(i,LOW);
+    }
+    else
+    {
+      digitalWrite(i,HIGH);
+    }
+    
+    
+  
+  }
+}
+
+void two()
+{
+  for(int i = 13;i>=7;i--)
+  {
+    if(i==8||i==11)
+    {
+      digitalWrite(i,HIGH);
+    }
+    else
+    {
+      digitalWrite(i,LOW);
+    }
+    
+    
+  
+  }
+}
+
+
+void three()
+{
+  for(int i = 13;i>=7;i--)
+  {
+    if(i==8||i==9)
+    {
+      digitalWrite(i,HIGH);
+    }
+    else
+    {
+      digitalWrite(i,LOW);
+    }
+    
+    
+  
+  }
+}
+
+void four(){
+  for(int i = 13;i>=7;i--)
+  {
+    if(i==9||i==10||i==13)
+    {
+      digitalWrite(i,HIGH);
+    }
+    else
+    {
+      digitalWrite(i,LOW);
+    }
+    
+    
+  
+  }
+
+}
+void five()
+{
+  for(int i = 13;i>=7;i--)
+  {
+    if(i==9||i==12)
+    {
+      digitalWrite(i,HIGH);
+    }
+    else
+    {
+      digitalWrite(i,LOW);
+    }
+    
+    
+  
+  }
+}
+void six()
+{
+  for(int i = 13;i>=7;i--)
+  {
+    if(i==13)
+    {
+      digitalWrite(i,HIGH);
+    }
+    else
+    {
+      digitalWrite(i,LOW);
+    }
+    
+    
+  
+  }
+}
+void seven()
+{
+  
+    for(int i = 13;i>=7;i--)
+  {
+    if(i==9||i==10||i==13)
+    {
+      digitalWrite(i,HIGH);
+    }
+    else
+    {
+      digitalWrite(i,LOW);
+    }
+  }      
+  
+}
+void eight()
+{
+  for(int i = 13;i>=7;i--)
+  {
+      digitalWrite(i,LOW);
+  }     
+}
+void nine()
+{
+   for(int i = 13;i>=7;i--)
+  {
+    if(i==9)
+    {
+      digitalWrite(i,HIGH);
+    }
+    else
+    {
+      digitalWrite(i,LOW);
+    }
+  } 
+}
+
+
+
+void setup()
+{
+  
+  pinMode(a,OUTPUT);
+  pinMode(b,OUTPUT);
+  pinMode(c,OUTPUT);
+  pinMode(d,OUTPUT);
+  pinMode(e,OUTPUT);
+  pinMode(f,OUTPUT);
+  pinMode(g,OUTPUT);
+ 
+}
+
+void loop()
+{
+    
+  
+  
+ 
+  
+   
+  
+  
+  
+
+  
+
+  
+    
+}
